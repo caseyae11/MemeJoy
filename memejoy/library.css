@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}   
+.library-container{
+    padding: 100px;
+}
+.meme-container{
+    max-width: 100%;
+    margin: 20px; 
+    columns: 4;
+    column-gap: 10px;
+}
+.meme-container .meme-item{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.meme-container .meme-item img{
+    max-width: 100%;
+    border-radius: 15px;
+    
+}
